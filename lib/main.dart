@@ -1,5 +1,8 @@
-import 'package:class15/counterview.dart';
+// import 'package:class15/counterview.dart';
+import 'package:class15/image.dart';
+// import 'package:class15/list.dart';
 import 'package:flutter/material.dart';
+
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -12,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CounterView(),
+      home: image(),
     );
   }
 }
